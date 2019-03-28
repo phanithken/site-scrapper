@@ -28,5 +28,5 @@ assets/id.json
 ## output will be store in /output folder
 ```
 example
-2019-03-28T08/42/52.046Z.csv
+data-20190328.csv
 ```
