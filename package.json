@@ -4,8 +4,19 @@
   "description": "a simple site scrapper app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js assets/id.json"
   },
   "author": "kenphanith",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "csv-writer": "^1.2.0",
+    "export-to-csv": "^0.2.1",
+    "nightmare": "^3.0.1",
+    "objects-to-csv": "^1.2.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "rxjs": "^6.4.0"
+  }
 }
